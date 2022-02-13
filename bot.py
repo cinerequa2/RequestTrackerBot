@@ -318,8 +318,8 @@ replyText = f"<b>👋 හායි   {mentionUser} !!\n\n 🥲 කණගාට�
                     [
                         [
                             InlineKeyboardButton(
-                                "🍿 Channel 🍿",
-                                url = f"https://t.me/cinesubz"
+                                "⏳ඉල්ලීමේ තත්වය⏳",
+                                url = f"https://t.me/c/{channelIDPro}/{requestMSG.message_id}"
                             )
                         ]
                     ]
