@@ -315,14 +315,7 @@ async def requestHandler(bot:Update, msg:Message):
                 parse_mode = "html",
                 reply_to_message_id = msg.message_id,
                 reply_markup = InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton(
-                                "⏳ඉල්ලීමේ තත්වය⏳",
-                                url = f"https://t.me/c/{channelIDPro}/{requestMSG.message_id}"
-                            )
-                        ]
-                    ]
+
                 )
             )
             break
