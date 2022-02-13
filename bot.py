@@ -318,7 +318,7 @@ async def requestHandler(bot:Update, msg:Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "⏳ඉල්ලීමේ තත්වය⏳",
+                                "🥲 කණගාටුයි 🥲",
                                 url = f"https://t.me/c/{channelIDPro}/{requestMSG.message_id}"
                             )
                         ]
